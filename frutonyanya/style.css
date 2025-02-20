@@ -43,7 +43,6 @@
   background-color: #ffffff;
   border: none;
   color: #00625f;
-  padding: 6px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -56,12 +55,14 @@
 
 .btn-small {
   font-weight: 500;
+  padding: 6px 20px;
   height: 29px;
 }
 
 .btn-large {
-  font-weight: 600;
-  height: 32px;
+  font-weight: 500;
+  padding: 8px 22px;
+  height: 34px;
 }
 
 /* Header */
@@ -87,14 +88,14 @@
 
 .header_search {
   width: 100%;
-  height: 31px;
+  height: 30px;
   border-radius: 10px;
   border-style: none;
   background-color: #ffffff;
   background-image: url('images/search_icon.png');
   background-repeat: no-repeat;
   background-size: 16px;
-  background-position: 8px 8px;
+  background-position: 12px 7px;
   padding-left: 32px;
   box-sizing: border-box;
 }
@@ -123,7 +124,6 @@
 .header_btn {
   float: right;
   margin-top: 19px;
-  margin-right: 5px;
 }
 
 /* Main */
@@ -154,6 +154,13 @@
   margin-top: 12px;
 }
 
+.company_img {
+  float: right;
+  width: 527px;
+  margin-right: 21px;
+  margin-top: -4px;
+}
+
 /* Footer */
 
 .footer {
@@ -169,12 +176,13 @@
 
 .footer_wrapper {
   height: 39px;
-  padding-top: 24px;
+  margin-top: 24px;
+  margin-left: -5px
 }
 
 .footer_col {
   float: left;
-  width: 200px;
+  min-width: 188px;
 }
 
 .footer p {
@@ -186,8 +194,9 @@
 
 .footer_social {
   float: right;
+  margin-right: 6px;
 }
 
 .footer_social_icon {
-  margin-left: 10px;
+  margin-left: 6px;
 }
