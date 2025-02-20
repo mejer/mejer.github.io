@@ -1,0 +1,193 @@
+/* Structure */
+
+.container {
+  width: 1000px;
+  padding: 0 80px;
+  margin: 0 auto;
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Colors */
+
+.bg-primary {
+  background-color: #fed539;
+}
+
+.bg-secondary {
+  background-color: #ffffff;
+}
+
+/* Fonts */
+
+.neucha-regular {
+  font-family: "Neucha", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-regular {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Elements */
+
+.btn {
+  background-color: #ffffff;
+  border: none;
+  color: #00625f;
+  padding: 6px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 15px;
+}
+
+.btn-small {
+  font-weight: 500;
+  height: 29px;
+}
+
+.btn-large {
+  font-weight: 600;
+  height: 32px;
+}
+
+/* Header */
+
+.header {
+  height: 96px;
+}
+
+.header_wrapper {
+  padding: 10px 0;
+}
+
+.header_center {
+  width: 559px;
+  margin-top: 19px;
+  margin-left: 62px; 
+  float: left;
+}
+
+.header_logo {
+  float: left;
+}
+
+.header_search {
+  width: 100%;
+  height: 31px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: #ffffff;
+  background-image: url('images/search_icon.png');
+  background-repeat: no-repeat;
+  background-size: 16px;
+  background-position: 8px 8px;
+  padding-left: 32px;
+  box-sizing: border-box;
+}
+
+.header_nav {
+  margin-top: 8px;
+}
+
+.header_nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.header_nav li {
+  display: block;
+  flex-grow: 1;
+}
+
+.header_nav a {
+  text-decoration: none;
+  color: #00625f;
+}
+
+.header_btn {
+  float: right;
+  margin-top: 19px;
+  margin-right: 5px;
+}
+
+/* Main */
+
+.main {
+  height: 584px;
+}
+
+.title {
+  color: #00625f;
+  font-size: 66px;
+  text-align: center;
+  padding: 28px 0;
+}
+
+.company {
+  float: left;
+  width: 33%;
+}
+
+.company_text {
+  font-size: 23px;
+  color: #00625f;
+}
+
+.company_btn {
+  margin-top: 18px;
+}
+
+/* Footer */
+
+.footer {
+  height: 87px;
+  background-color: #fff;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  color: #00625f;
+}
+
+.footer_wrapper {
+  height: 39px;
+  padding-top: 24px;
+}
+
+.footer_col {
+  float: left;
+  width: 200px;
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
+  line-height: 130%;
+  margin-bottom: 5px;
+}
+
+.footer_social {
+  float: right;
+}
+
+.footer_social_icon {
+  margin-left: 10px;
+}
+
