@@ -43,7 +43,7 @@
   background-color: #ffffff;
   border: none;
   color: #00625f;
-  padding: 6px 16px;
+  padding: 6px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -146,11 +146,12 @@
 
 .company_text {
   font-size: 23px;
+  line-height: 130%;
   color: #00625f;
 }
 
 .company_btn {
-  margin-top: 18px;
+  margin-top: 12px;
 }
 
 /* Footer */
@@ -190,4 +191,3 @@
 .footer_social_icon {
   margin-left: 10px;
 }
-
